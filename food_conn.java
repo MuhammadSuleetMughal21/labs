@@ -21,7 +21,7 @@ public class food_conn {
         //"org.sqlite.JDBC"
         try{
             // Class.forName("org.apache.derby.jdbc.EmbeddedDriver");
-            Connection conn = DriverManager.getConnection("jdbc:derby://localhost:1527/food", "suleet", "123");
+            Connection conn123 = DriverManager.getConnection("jdbc:derby://localhost:1527/food", "suleet", "123");
             System.out.println("connected");
             return conn;
         }catch(Exception e){
