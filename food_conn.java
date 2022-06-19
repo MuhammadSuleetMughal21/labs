@@ -15,7 +15,7 @@ import javax.swing.JOptionPane;
  * @author Ryan
  */
 public class food_conn {
-    Connection conn = null;
+    Connection conn124 = null;
     
     public static Connection food_connection(){
         //"org.sqlite.JDBC"
